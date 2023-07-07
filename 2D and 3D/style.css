@@ -1,0 +1,130 @@
+.a2D{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rotate{
+    
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.rotate1{
+    height: 200px;
+    width: 200px;
+     background-color: red;
+     transform: rotate(45deg);
+     text-align: center;
+     color: blue;
+     font-size: 30px;
+     }
+     .translate{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin-top: 50px;
+        margin-left: 35px;
+     }
+     .translate1{
+        height: 200px;
+        width: 200px;
+         background-color: red;
+         transform: translate(30px,50px);
+         text-align: center;
+         color: blue;
+         font-size: 30px;
+     } 
+     .scale{
+        width: 200px;
+        height: 200px;
+        border: 5px solid black;
+        margin-top: 50px;
+        margin-left: 35px;
+     }
+     .scale1{
+        height: 200px;
+        width: 200px;
+         background-color: red;
+         text-align: center;
+         color: blue;
+         font-size: 30px;
+     }
+     .scale1:hover{
+        transform: scale(1.3,1.4);
+     }
+     .skew{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin-top: 50px;
+        margin-left: 35px;
+     }
+     .skew1{
+        height: 200px;
+        width: 200px;
+         background-color: red;
+         text-align: center;
+         color: blue;
+         font-size: 30px;
+         transform: skew(14deg,12deg);
+     }
+     /*From here I started to give style for topic 3D*/
+     .a3D{
+        display:flex;
+        justify-content: space-evenly;
+     }
+     .rotate3d{
+
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin-top: 50px;
+        margin-left: 35px;
+     }
+     .rotate3d1{
+        height: 200px;
+        width: 200px;
+         background-color: green;
+         text-align: center;
+         color: blue;
+         font-size: 30px; 
+         transform: rotate3d(1,3,2,35deg);
+     }
+     .perspective{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin-top: 50px;
+        margin-left: 35px;
+     }
+     .perspective1{
+        height: 200px;
+        width: 200px;
+         background-color: green;
+         text-align: center;
+         color: blue;
+         font-size: 30px; 
+         transform:perspective(250px) rotate3d(1,3,2,35deg);
+     }
+     .translate3d{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin-top: 50px;
+        margin-left: 35px;
+     }
+     .translate3d1{
+        height: 200px;
+        width: 200px;
+         background-color: green;
+         text-align: center;
+         color: blue;
+         font-size: 30px; 
+         transform: translate3d(15px,20px,24px);
+     }
+    
+
+   
+   
